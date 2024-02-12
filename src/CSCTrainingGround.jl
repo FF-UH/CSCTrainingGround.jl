@@ -1,5 +1,6 @@
 module CSCTrainingGround
 
-# Write your package code here.
+    export DATA_DIR 
+    const DATA_DIR = joinpath(pathof(@__MODULE__), "data")
 
 end
